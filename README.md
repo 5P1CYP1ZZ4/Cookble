@@ -8,6 +8,11 @@ The most common complaint when it comes to searching for cooking/baking recipes 
 This is not curently an official site link, however there is a Github Pages deployment that works as a backup.
 
 ## Site Logo and Early Designing Maps:
+Site structure map not available at the current moment
+
 The first official logo design for the site. 2022
 ![First Logo Design, 2022](cookble.png)
+
+The first favicon, based on the site logo for the 2022-2023 launch
+![First Favicon, 2022](favicon.ico)
 ##
