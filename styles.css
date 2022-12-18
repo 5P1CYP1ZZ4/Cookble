@@ -17,7 +17,6 @@
 }
 .navigation a.current {
     border-bottom: #2196F3 2px solid;
-    color: white;
 }
 .navigation input[type=text] {
     float: right;
