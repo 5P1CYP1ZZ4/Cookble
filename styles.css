@@ -1,10 +1,10 @@
 html {
-    background-color: #c5c5c5;
+    background-color: #e0e0e0;
     color: #000;
     margin: 0px;
 }
 .footer {
-    border-top: rgb(0, 255, 255) 3px solid;
+    border-top: #000 3px solid;
     color: #D4D4D4;
     position: fixed;
     left: 0;
