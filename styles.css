@@ -4,12 +4,17 @@ html {
     margin: 0px;
 }
 .footer {
-    border-top: #000 solid 2px;
+    border-top: rgb(0, 255, 255) 3px solid;
+    color: #D4D4D4;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: transparent;
-    color: #000;
+    background-color: rgb(34, 34, 34. 0.9);
+}
+    .footer p,a {
     text-align: center;
+    text-decoration:none;
+    color: #D4D4D4;
+    margin: 10px;
 }
