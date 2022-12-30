@@ -1,4 +1,4 @@
-function myFunction() {
+function menubutton() {
     var x = document.getElementById("topnavi");
     if (x.className === "topnavi") {
       x.className += " responsive";
