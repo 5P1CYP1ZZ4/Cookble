@@ -5,7 +5,7 @@ body {
     color: #292929;
   }
   i {
-    color: #292929;
+    color: rgba(159, 159, 159, 0.9);
   }
   .topnavi {
     overflow: hidden;
@@ -45,7 +45,7 @@ body {
     float: right;
     border-radius: 15px;
     background-color: rgb(0, 255, 255);
-    color: #222;
+    color: #292929;
   }
   @media screen and (max-width: 600px) {
     .topnavi a:not(:first-child) {display: none;}
