@@ -3,19 +3,19 @@ body {
     font-family: Orbitron;
     background-color: #d5d5d5;
     color: #292929;
-  }
-  i {
+}
+i {
     color: #292922;
-  }
-  .topnavi {
+}
+.topnavi {
     overflow: hidden;
     background-color: rgba(185, 185, 185, 0.9);
     position: fixed; 
     top: 0;
     width: 100%;
     border-bottom: #292922 3px solid;
-  }
-  .topnavi a {
+}
+.topnavi a {
     float: right;
     border-radius: 15px;
     color: #292929;
@@ -24,39 +24,39 @@ body {
     text-decoration: none;
     font-size: 17px;
     margin: 10px;
-  }
-  .topnavi a:hover {
+}
+.topnavi a:hover {
     background-color: #444;
     color: #292929;
-  }
-  .topnavi a.title {
+}
+.topnavi a.title {
     float: left;
     background-color: transparent;
     color: #292929;
-  }
-   .topnavi a.title:hover {
+}
+.topnavi a.title:hover {
     float: left;
     background-color: transparent;
     color: #292922;
-  }
+}
   .topnavi .icon {
     display: none;
-  }
+}
   .topnavi a.login-glow {
     float: right;
     border-radius: 15px;
     background-color: rgb(0, 255, 255);
     color: #292929;
-  }
-  @media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 600px) {
     .topnavi a:not(:first-child) {display: none;}
     .topnavi a.icon {
       float: right;
       display: block;
     }
-  }
+}
   
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .topnavi.responsive {position: relative;}
     .topnavi.responsive .icon {
       position: absolute;
@@ -67,53 +67,54 @@ body {
       float: none;
       display: block;
       text-align: left;
-    }
-  }
-  .center-image {
+    }  
+}
+.center-image {
     display: block;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -25px;
     width: 200px;
-  }
-  .menu-image {
+}
+.menu-image {
+    margin: 10px;
     display: block;
-    width: 100px;
-    height: 50px;
+    width: 300px;
+    height: 100px;
     float: left;
-  }
-  .content {
+}
+.content {
     border: #292929 5px solid;
     border-radius: 7px;
     max-width: 80%;
     margin: auto;
     margin-bottom: 25px;
-  }
-  .content h1,h2,h3,h4,h5,p {
+}
+.content h1,h2,h3,h4,h5,p {
     margin: 10px;
-  }
-  .content a {
+}
+.content a {
     text-decoration: none;
     color: #292929;
-  }
-  .column {
+}
+.column {
     float: left;
     width: 50%;
-  }
-  .row:after {
+}
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  .left-image {
+}
+.left-image {
     display: block;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
-  }
-  .footer {
+}
+.footer {
   border-top: #292929 3px solid;
   color: #292922;
   position: fixed;
@@ -121,10 +122,10 @@ body {
   bottom: 0;
   width: 100%;
   background-color: rgba(185, 185, 185, 0.9);
-  }
-  .footer p,a {
+}
+.footer p,a {
   text-align: center;
   text-decoration:none;
   color: #292929;
   margin: 10px;
-  }
+}
