@@ -84,6 +84,13 @@ i {
     height: 50px;
     float: left;
 }
+.menu-image a {
+    margin: 10px;
+    display: block;
+    width: auto;
+    height: 50px;
+    float: left;
+}
 .content {
     border: #292929 5px solid;
     border-radius: 7px;
