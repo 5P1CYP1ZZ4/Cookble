@@ -81,7 +81,7 @@ i {
     margin: 10px;
     display: block;
     width: auto;
-    height: 70px;
+    height: auto;
     float: left;
 }
 .content {
