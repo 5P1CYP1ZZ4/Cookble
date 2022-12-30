@@ -13,6 +13,7 @@ body {
     position: fixed; 
     top: 0;
     width: 100%;
+    border-bottom: #aa00ff 3px solid;
   }
   .topnavi a {
     float: right;
