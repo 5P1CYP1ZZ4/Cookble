@@ -77,6 +77,11 @@ body {
     margin-bottom: -25px;
     width: 200px;
   }
+  .menu-image {
+    display: block;
+    width: 100px;
+    height: 50px;
+  }
   .content {
     border: #292929 5px solid;
     border-radius: 7px;
