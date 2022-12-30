@@ -1,20 +1,123 @@
-html {
-    background-color: #e0e0e0;
-    color: #000;
-    margin: 0px;
-}
-.footer {
-    border-top: #000 3px solid;
-    color: #000;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+body {
+    margin: 0;
+    font-family: Orbitron;
+    background-color: #222;
+    color: #fff;
+  }
+  i {
+    color: #fff;
+  }
+  .topnavi {
+    overflow: hidden;
+    background-color: rgb(34, 34, 34, 0.9);
+    position: fixed; 
+    top: 0;
     width: 100%;
-    background-color: rgb(34, 34, 34. 0.9);
-}
-    .footer p,a {
+  }
+  .topnavi a {
+    float: right;
+    border-radius: 15px;
+    color: #f2f2f2;
     text-align: center;
-    text-decoration:none;
-    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
     margin: 10px;
-}
+  }
+  .topnavi a:hover {
+    background-color: #444;
+    color: #fff;
+  }
+  .topnavi a.title {
+    float: left;
+    background-color: transparent;
+    color: #fff;
+  }
+   .topnavi a.title:hover {
+    float: left;
+    background-color: transparent;
+    color: #fff;
+  }
+  .topnavi .icon {
+    display: none;
+  }
+  .topnavi a.login-glow {
+    float: right;
+    border-radius: 15px;
+    background-color: rgb(0, 255, 255);
+    color: #222;
+  }
+  @media screen and (max-width: 600px) {
+    .topnavi a:not(:first-child) {display: none;}
+    .topnavi a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnavi.responsive {position: relative;}
+    .topnavi.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnavi.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .center-image {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -25px;
+    width: 200px;
+  }
+  .content {
+    border: cyan 5px solid;
+    border-radius: 7px;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  .content h1,h2,h3,h4,h5,p {
+    margin: 10px;
+  }
+  .content a {
+    text-decoration: none;
+    color: cyan;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .left-image {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+  .footer {
+  border-top: rgb(0, 255, 255) 3px solid;
+  color: #D4D4D4;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(34, 34, 34. 0.9);
+  }
+  .footer p,a {
+  text-align: center;
+  text-decoration:none;
+  color: #D4D4D4;
+  margin: 10px;
+  }
