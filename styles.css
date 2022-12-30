@@ -13,7 +13,7 @@ body {
     position: fixed; 
     top: 0;
     width: 100%;
-    border-bottom: #aa00ff 3px solid;
+    border-bottom: #292922 3px solid;
   }
   .topnavi a {
     float: right;
@@ -78,7 +78,7 @@ body {
     width: 200px;
   }
   .content {
-    border: #aa00ff 5px solid;
+    border: #292929 5px solid;
     border-radius: 7px;
     max-width: 80%;
     margin: auto;
@@ -89,7 +89,7 @@ body {
   }
   .content a {
     text-decoration: none;
-    color: #aa00ff;
+    color: #292929;
   }
   .column {
     float: left;
@@ -108,7 +108,7 @@ body {
     width: 200px;
   }
   .footer {
-  border-top: #aa00ff 3px solid;
+  border-top: #292929 3px solid;
   color: #292922;
   position: fixed;
   left: 0;
