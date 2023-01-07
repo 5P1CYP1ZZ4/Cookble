@@ -68,14 +68,6 @@ i {
       text-align: left;
     }  
 }
-.center-image {
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: -25px;
-    width: 200px;
-}
 .topnavi img.menu-image {
     z-index: 1;
     margin: 10px;
@@ -84,29 +76,7 @@ i {
     height: 50px;
     float: left;
 }
-.content {
-    border: #292929 3px solid;
-    border-radius: 7px;
-    max-width: 80%;
-    margin: auto;
-    margin-bottom: 25px;
-}
-.content h1,h2,h3,h4,h5,p {
-    margin: 10px;
-}
-.content a {
-    text-decoration: none;
-    color: #292929;
-}
-.column {
-    float: left;
-    width: 50%;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 .left-image {
     display: block;
     margin-top: 50px;
