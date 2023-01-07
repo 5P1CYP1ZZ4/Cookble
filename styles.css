@@ -72,7 +72,7 @@ i {
   color: #292922;
   /* position: fixed; */
   left: 0;
-  bottom: 0;
+  bottom: 0 !important;
   width: 100%;
   background-color: rgba(185, 185, 185, 0.9);
 }
