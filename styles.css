@@ -17,7 +17,7 @@ i {
     box-sizing: inherit;
 }
 .footer {
-  border-top: rgb(140, 0, 255, 0.541) 3px solid;
+  border-top: #000 3px solid;
   color: #292922;
   /* position: fixed; */
   left: 0;
