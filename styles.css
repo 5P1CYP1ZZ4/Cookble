@@ -25,6 +25,7 @@ i {
     border-bottom: #292922 3px solid;
 }
 .topnavi a {
+    z-index: 1;
     float: right;
     border-radius: 15px;
     color: #292929;
