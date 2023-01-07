@@ -20,21 +20,21 @@ i {
 
 
 
-.topnav {
+.search-nav {
     overflow: hidden;
 }
-.topnav .search-container {
+.search-nav .search-container {
     float: right;
   }
   
-  .topnav input[type=text] {
+  .search-nav input[type=text] {
     padding: 6px;
     margin-top: 8px;
     font-size: 17px;
     border: none;
   }
   
-  .topnav .search-container button {
+  .search-nav .search-container button {
     float: right;
     padding: 6px 10px;
     margin-top: 8px;
@@ -45,14 +45,14 @@ i {
     cursor: pointer;
   }
   
-  .topnav .search-container button:hover {
+  .search-nav .search-container button:hover {
     background: #ccc;
   }
   @media screen and (max-width: 600px) {
-    .topnav .search-container {
+    .search-nav .search-container {
       float: none;
     }
-    .topnav input[type=text], .topnav .search-container button {
+    .search-nav input[type=text], .search-nav .search-container button {
       float: none;
       display: block;
       text-align: left;
@@ -60,7 +60,7 @@ i {
       margin: 0;
       padding: 14px;
     }
-    .topnav input[type=text] {
+    .search-nav input[type=text] {
       border: 1px solid #ccc;  
     }
   }  
