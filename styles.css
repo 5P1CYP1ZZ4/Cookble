@@ -78,6 +78,7 @@ i {
     }  
 }
 .topnavi img.menu-image {
+    position: absolute;
     z-index: 1;
     margin: 10px;
     display: block;
