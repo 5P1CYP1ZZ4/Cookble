@@ -78,21 +78,15 @@ i {
     }  
 }
 .topnavi img.menu-image {
-    position: absolute;
     z-index: 1;
     margin: 10px;
     display: block;
     width: auto;
     height: 50px;
     float: left;
-}
-.left-image {
-    z-index: 1;
-    display: block;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
 }
 .footer {
   border-top: #292929 3px solid;
