@@ -17,9 +17,9 @@ i {
     box-sizing: inherit;
 }
 .footer {
-  border-top: #292929 3px solid;
+  border-top: rgb(140, 0, 255, 0.541) 3px solid;
   color: #292922;
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
@@ -44,8 +44,8 @@ i {
   }
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgb(0, 238, 255);
-    background-color: rgb(22, 22, 22);
+    box-shadow: 0 4px 8px 0 rgb(140, 0, 255, 0.541);
+    background-color: transparent;
 }
 .container {
     padding: 0 16px;
@@ -56,7 +56,7 @@ i {
     display: table;
 }
 .title {
-    color: rgb(0, 238, 255)
+    color: rgb(140, 0, 255)
 }
 .button {
     border: none;
@@ -64,7 +64,7 @@ i {
     display: inline-block;
     padding: 8px;
     color: rgb(0, 238, 255);
-    background-color: transparent;
+    background-color: rgba(140, 0, 255, 0.541);
     text-align: center;
     cursor: pointer;
     width: 100%;
