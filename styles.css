@@ -13,6 +13,9 @@ body {
 i {
     color: #292922;
 }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 .topnavi {
     overflow: hidden;
     background-color: rgba(185, 185, 185, 0.9);
@@ -60,7 +63,6 @@ i {
       display: block;
     }
 }
-  
 @media screen and (max-width: 600px) {
     .topnavi.responsive {position: relative;}
     .topnavi.responsive .icon {
@@ -82,8 +84,8 @@ i {
     height: 50px;
     float: left;
 }
-
 .left-image {
+    z-index: 1;
     display: block;
     margin-top: 50px;
     margin-left: auto;
@@ -104,12 +106,6 @@ i {
   text-decoration:none;
   color: #292929;
   margin: 10px;
-}
-
-
-
-*, *:before, *:after {
-    box-sizing: inherit;
 }
 .column {
     float: left;
