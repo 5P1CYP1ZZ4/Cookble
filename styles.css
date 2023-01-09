@@ -70,7 +70,7 @@ i {
 .footer {
   border-top: #000 3px solid;
   color: #292922;
-  /* position: fixed; */
+  position: fixed;
   left: 0;
   bottom: 0 !important;
   width: 100%;
