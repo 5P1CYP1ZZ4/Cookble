@@ -8,13 +8,13 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #333; 
+  background-color: transparent; 
 }
 
 .navbar a {
   float: left;
   font-size: 16px;
-  color: white;
+  color: #000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -29,7 +29,7 @@ body {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: #000;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -37,27 +37,29 @@ body {
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
+  background-color: #555;
+  color: #fff;
 }
 
 .subnav-content {
   display: none;
   position: absolute;
   left: 0;
-  background-color: red;
+  background-color: #555;
+  color: #fff;
   width: 100%;
   z-index: 1;
 }
 
 .subnav-content a {
   float: left;
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
 .subnav-content a:hover {
   background-color: #eee;
-  color: black;
+  color: #000;
 }
 
 .subnav:hover .subnav-content {
