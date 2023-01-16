@@ -46,7 +46,7 @@ body {
   position: absolute;
   left: 0;
   background-color: #555;
-  color: #fff;
+  color: #fff; 
   width: 100%;
   z-index: 1;
 }
