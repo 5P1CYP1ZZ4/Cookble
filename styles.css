@@ -8,7 +8,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #555; 
+  background-color: rgb(50, 0, 48);; 
 }
 
 .navbar a {
@@ -45,7 +45,7 @@ body {
   display: none;
   position: absolute;
   left: 0;
-  background-color: #555;
+  background-color: rgb(50, 0, 48);
   color: #fff; 
   width: 100%;
   z-index: 1;
