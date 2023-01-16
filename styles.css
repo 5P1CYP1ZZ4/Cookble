@@ -8,13 +8,13 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: transparent; 
+  background-color: #555; 
 }
 
 .navbar a {
   float: left;
   font-size: 16px;
-  color: #000;
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -37,8 +37,8 @@ body {
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: #555;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 .subnav-content {
