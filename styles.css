@@ -105,5 +105,7 @@ body {
   border-radius: 10px;
   max-width: 500px;
   margin-top: 80px;
-  margin: auto;
+  margin-bottom: 80px;
+  margin-right: auto;
+  margin-left: auto;
 }
