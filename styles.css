@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  background-color: rgb(50, 0, 48);
+  color: #fff;
 }
 body {
   font-family: Orbitron;
@@ -98,9 +100,6 @@ body {
 }
 .button:hover {
   background-color: #555;
-}
-.contact-staff {
-background-color: rgb(50, 0, 48);
 }
 .temppage-centeredcontent {
   border: 4px #fff solid;
