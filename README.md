@@ -11,8 +11,8 @@ This is not curently an official site link, however there is a Github Pages depl
 Site structure map not available at the current moment
 
 The first official logo design for the site. 2022
-![First Logo Design, 2022](cookble.png)
+![First Logo Design, 2022](/media/img/cookble.png)
 
 The first favicon, based on the site logo for the 2022-2023 launch
-![First Favicon, 2022](favicon.ico)
+![First Favicon, 2022](/media/favicon.ico)
 ##
